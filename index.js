@@ -4,7 +4,7 @@ import cors from "cors";
 const app = express();
 const port = 5000;
 
-// app.use(cors);
+app.use(cors);
 
 app.get("/api/", (req, res) => {
   res.send("Test app running");
