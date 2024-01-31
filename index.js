@@ -6,7 +6,7 @@ const port = 5000;
 
 // app.use(cors);
 
-app.use("/", (req, res) => {
+app.use("/api", (req, res) => {
   res.send("Test app running");
 });
 
